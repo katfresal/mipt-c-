@@ -20,14 +20,14 @@ int main(){
 		Panic(result_sum);
 	}
 	else{
-		Panic_succes();
+		Print_success();
 	}
 
 	if (result_mul != first * second){
 		Panic(result_mul);
 	}
 	else{
-		Panic_succes();
+		Print_success();
 	}
 
 	return 0;	
